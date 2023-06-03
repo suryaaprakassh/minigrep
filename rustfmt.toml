@@ -1,0 +1,5 @@
+indent_style="Block"
+
+reorder_imports = false
+
+chain_width = 40
