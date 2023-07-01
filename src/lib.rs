@@ -109,7 +109,6 @@ mod tests {
 
     #[test]
     fn case_sensitive() {
-        let query: &str = "fox";
         let contents: &str = "The quick\nbrown fox\njumps over the lazy dog.\nFox jumps over.";
 
         assert_eq!(vec!["brown fox"], search(query, contents));
